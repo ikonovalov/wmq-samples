@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.smartsoft.wmq</groupId>
+    <artifactId>com.smartsoft.wmq.samples</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>SmartSoft WMQ sample</name>
+
+    <dependencies>
+        <!-- WMQ -->
+        <dependency>
+            <groupId>com.ibm.mq</groupId>
+            <artifactId>commonservices</artifactId>
+            <version>7.5.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/com.ibm.mq.commonservices.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.mq</groupId>
+            <artifactId>headers</artifactId>
+            <version>7.5.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/com.ibm.mq.headers.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.mq</groupId>
+            <artifactId>mq</artifactId>
+            <version>7.5.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/com.ibm.mq.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.mq</groupId>
+            <artifactId>jmqi</artifactId>
+            <version>7.5.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/com.ibm.mq.jmqi.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.mq</groupId>
+            <artifactId>pcf</artifactId>
+            <version>7.5.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/com.ibm.mq.pcf.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>javax.resoure</groupId>
+            <artifactId>connector-spi</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/connector.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>javax.transaction</groupId>
+            <artifactId>jta</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/jta.jar</systemPath>
+        </dependency>
+        <!-- Tests -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+        </dependency>
+    </dependencies>
+
+</project>
